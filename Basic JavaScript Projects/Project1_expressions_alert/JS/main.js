@@ -19,3 +19,8 @@ var Blue = "Leonardo", Red = "Raphael", Purple = "Donatello",  //Addiing multipl
 document.write(Blue);  //Calls the var Blue which will write Leonardo on the screen.
 
 document.write(4*1); //Expression written out for the program to solve.
+
+
+function myFunction() {
+    alert('Input field has lost focus.');
+}
