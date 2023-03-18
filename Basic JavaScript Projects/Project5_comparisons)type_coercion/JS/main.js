@@ -1,6 +1,6 @@
-document.write(typeof 6); 
+document.write(typeof 6);  //using type of to display what type of data is being entered.
 
-document.write("90" * 8);
+document.write("90" * 8); // combining a string and number to write an expression.
 
 document.write(0/0); 
 
@@ -21,11 +21,11 @@ function Num_1() {
     document.getElementById("Neg").innerHTML = exponent;
 }
 
-document.write(95 < 35); 
+document.write(95 < 35); //Using boolean logic to get different true or false responses
 
 document.write(654 > 653); 
 
-console.log(5 * 10);
+console.log(5 * 10); //using console log to display code/results in the developeres tools 
 
 console.log(5 > 20);
 
@@ -33,7 +33,7 @@ document.write(8 * 10 == 80);
 
 document.write(8 * 10 == 800);
 
-A = 03/23/1988;
+A = 03/23/1988;  // using triple = to make sure if variables are both the same value and data type.
 B = 03/23/1988;
 document.write(A === B);
 
@@ -49,7 +49,7 @@ G = "Dog";
 H = "Cat";
 document.write(G === H);
 
-document.write(9 < 32 && 5 * 2 > 2);
+document.write(9 < 32 && 5 * 2 > 2); //usign and, or , not operators to get true/false responses
 
 document.write(8 > 23 || 23 < 12);
 
